@@ -1,32 +1,84 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-  imageBackground: {
+  container: {
     flex: 1,
-    width: '100%',
-    height: '100%',
-    justifyContent: 'center',
-    alignItems: 'center'
+    
   },
-  logo: {
-    marginTop: '10%',
+  box1: {
+    flex: 0.2,
+    borderWidth:1,
+    borderColor:'black',
   },
-  orgButton: {
-    marginTop: '50%',
-    gap: 20,
-    width: '50%',
-  },
-  button: {
-    width: '100%',
-    height: 40,
-    backgroundColor: '#205732',
-    borderRadius: 8,
-    justifyContent: 'center',
-    alignItems: 'center',
+  box2: {
+    flex: 0.5,
+    borderWidth:1,
+    borderColor:'black',
 
   },
-  textButton: {
-    color: 'white',
-    fontSize: '15pt'
-  }
+  box3: {
+    flex: 0.3,
+    borderWidth:1,
+    borderColor:'black',
+
+  },
+  box4: {
+    flex: 0.1,
+    borderWidth:1,
+    borderColor:'black',
+
+  },
+  boxIconsText:{
+    flex:0.4,
+    flexDirection:'row',
+    justifyContent:'space-between',
+    alignItems:'center',
+    paddingHorizontal:20,
+    borderWidth:1,
+    borderColor:'blue',
+  },
+  boxIconsNav:{
+    flex:0.2,
+    flexDirection:'row',
+    justifyContent:'space-between',
+    alignItems:'center',
+    paddingHorizontal:20,
+    borderWidth:1,
+    borderColor:'blue',
+  },
+  boxMoney:{
+    flex:0.3,
+    flexDirection:'row',
+    alignItems:'center',
+    paddingHorizontal:20,
+    borderWidth:1,
+    borderColor:'blue',
+  },
+  titleMoney:{
+    fontWeight:'bold',
+    fontSize:20
+  },
+  boxBemVindo:{
+    flex:0.6,
+    justifyContent:'center',
+    paddingHorizontal:20,
+    borderWidth:1,
+    borderColor:'blue',
+  },
+  boxIcons:{
+    flexDirection:'row',
+    gap:20,
+    borderWidth:1,
+    borderColor:'blue',
+  },
+  boxModalIcons:{
+    flex:0.5,
+    flexDirection:'row',
+    justifyContent:'space-evenly',
+    alignItems:'center',
+    gap:20,
+    borderWidth:1,
+    borderColor:'yellow',
+  },
+
 })
