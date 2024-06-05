@@ -17,13 +17,7 @@ export default StyleSheet.create({
 
   },
   box3: {
-    flex: 0.3,
-    borderWidth:1,
-    borderColor:'black',
-
-  },
-  box4: {
-    flex: 0.1,
+    flex: 0.4,
     borderWidth:1,
     borderColor:'black',
 

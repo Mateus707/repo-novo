@@ -1,6 +1,6 @@
 import styles from './styles';
 import { SafeAreaView, View,Text, Pressable} from 'react-native';
-
+import {Feather,FontAwesome,FontAwesome5,FontAwesome6     } from '@expo/vector-icons';
 
 export default function App({navigation}){
     return (
@@ -10,12 +10,11 @@ export default function App({navigation}){
                 <View style={styles.box1}>
                     <View style={styles.boxIconsText}>
                         <View>
-                            <Text>Icon</Text>
+                         <Feather name="user" size={24} color="black" />
                         </View>
                         <View style={styles.boxIcons}>
-                            <Text>Icon</Text>
-                            <Text>Icon</Text>
-                            <Text>Icon</Text>
+                        <FontAwesome name="cog" size={24} color="black" />
+                        
                         </View>
                     </View>
                     <View style={styles.boxBemVindo}>
@@ -33,10 +32,12 @@ export default function App({navigation}){
                 </View>
                 <View style={styles.boxModalIcons}>
                     <Pressable>
-                         <Text>Pagar</Text>
+                    <FontAwesome5 name="comments-dollar" size={24} color="black" />
+                         
                     </Pressable>
                     <Pressable>
-                         <Text>Entrada</Text>
+                    <FontAwesome6 name="circle-dollar-to-slot" size={24} color="black" />
+                        
                     </Pressable>
                 </View>
                 </View>
@@ -49,9 +50,6 @@ export default function App({navigation}){
                         <Text>Conta</Text>
                         <Text>Icon</Text>
                     </View>
-                </View>
-                <View style={styles.box4}>
-                    <View></View>
                 </View>
              
             </SafeAreaView>
